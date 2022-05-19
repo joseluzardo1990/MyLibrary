@@ -67,7 +67,7 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = 'com.github.joseluzardo1990'
-                artifactId = 'post-venta-library1'
+                artifactId = 'custom-view'
                 version = '1.3'
             }
         }
