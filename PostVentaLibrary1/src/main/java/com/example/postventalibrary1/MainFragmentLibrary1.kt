@@ -22,7 +22,7 @@ class MainFragmentLibrary1 : Fragment() {
 
         return ComposeView(requireContext()).apply {
             setContent {
-                TestViewHost()
+                TestView1()
             }
         }
     }

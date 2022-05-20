@@ -13,7 +13,7 @@ class CustomTestView @JvmOverloads constructor(
 
     @Composable
     override fun Content() {
-        TestViewHost()
+        TestView1()
     }
 
 }
