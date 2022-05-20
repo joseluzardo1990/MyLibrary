@@ -12,7 +12,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.AbstractComposeView
-import androidx.compose.ui.tooling.preview.Preview
 
 class CustomTestView @JvmOverloads constructor(
     context: Context,
