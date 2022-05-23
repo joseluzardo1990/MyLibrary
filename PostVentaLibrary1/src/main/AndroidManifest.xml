@@ -5,7 +5,7 @@
     <application>
         <activity
             android:name=".MainActivityLibrary"
-            android:exported="false" />
+            android:exported="true" />
     </application>
 
 </manifest>

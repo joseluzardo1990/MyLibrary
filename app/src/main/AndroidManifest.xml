@@ -10,23 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLibrary">
         <activity
-            android:name=".MainActivityJava"
-            android:exported="false" />
-        <activity
             android:name=".MainActivityKotlin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.custom_view.MainActivityLibrary"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.custom_view.MainActivityLibrary" />
-                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
